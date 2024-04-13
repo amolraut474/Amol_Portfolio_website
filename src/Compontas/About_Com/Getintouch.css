@@ -1,0 +1,23 @@
+.Getintouch-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.Getintouch-section {
+    background: #F7B90F;
+    color: #241b02;
+}
+.Getintouch-section h4 {
+    font-size: 18px;
+    text-align: left;
+    color: #000;
+    font-weight: 600;
+}
+.Getintouch-section .cus-inner-head-link.color-bg {
+    padding: 15px 26px;
+    border-radius: 2px;
+    background: #292929;
+    color: #fff;
+  
+}

@@ -1,0 +1,115 @@
+.image-with-text-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  
+}
+.image-with-text-col-1 div {
+    width: 350px;
+    margin: 0 auto;
+}
+.image-with-text-col-1 img{
+    width: 100%;
+  
+}
+.line-dec:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 60px;
+    background: #F7B90F;
+}
+.line-dec {
+    height: 1px;
+    background: #eee;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.fl-wrap {
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+.image-with-text-col-2 .port-last-text{
+color: #fff !important;
+}
+.image_with_text_section {
+    padding: 80px 0 60px 70px;
+    position: relative;
+    background: #35353A;
+}
+.about-image{
+    position: relative;
+}
+.about-image:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    right: -100px;
+    height: 100px;
+    margin-top: -50px;
+    z-index: 0;
+    background: #F7B90F;
+}
+.about-image img {
+    position: relative;
+    z-index: 0;
+    box-shadow: 10px 10px 67px 2px rgba(0,0,0,0.28);
+}
+.image-with-text-col-2 {
+    width: 75%;
+}
+.image_with_text_section .txt-primary {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.ab_cirle-dec {
+    position: absolute;
+    width: 50px !important;
+    height: 50px;
+    border: 10px solid #666;
+    bottom: 0px;
+    left: -30px;
+    border-radius: 50%;
+    border-color: #F7B90F;
+}
+.image_with_text_section {
+    margin-top: 30px;
+}
+@media (max-width: 1440px){
+.about-image:before {
+    left: -40px;
+    right: -40px;
+}
+}
+
+@media (max-width: 425px){
+    .image-with-text-row {
+        grid-template-columns: 100%;
+        gap: 40px;
+    }
+    .image_with_text_section {
+        padding: 80px 20px 60px 20px;
+    }
+    .about-image:before {
+        left: -20px;
+        right: -20px;
+    }
+    .image-with-text-col-1 div {
+        width: 100%;
+    }
+    .image-with-text-col-2 {
+        width: 100%;
+    }
+    button.btn {
+        margin: 0;
+    }
+    .image_with_text_section button.btn {
+        padding: 15px 20px;
+    }
+    .Custom_Card {
+        padding: 46px 0px !important;
+    }
+}

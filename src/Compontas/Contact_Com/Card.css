@@ -1,0 +1,74 @@
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Custom_Card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 46px 35px;
+    background: #35353a;
+    position: relative;
+}
+.card-section {
+    padding: 30px 0;
+}
+.card-icon-c {
+    background: #f7b90f;
+    color: #000;
+    padding: 9px 25px;
+    line-height: 50px;
+    border-radius: 4px;
+    box-shadow: 0 15px 5px rgb(0 0 0 / 8%);
+}
+.card-icon-c i{
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+}
+.card-title-box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card-title {
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.last-des{
+    color: #F7B90F;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+}
+.card-desciption{
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
+}
+.card-item_num {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+    font-weight: 600;
+    background: #2D2D32;
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    text-align: center;
+}
+
+@media (max-width: 1440px){
+    .Custom_Card {
+        padding: 16px 35px;
+}
+}

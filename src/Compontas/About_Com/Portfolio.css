@@ -1,0 +1,52 @@
+
+/* .portfolio-container {
+    padding: 20px;
+  }
+   */
+  .skills-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 90%;
+    gap: 30px;
+
+  }
+  
+  .skill-item {
+    margin: 0px;
+    text-align: center;
+ 
+  }
+  .skill-title{
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 2px;
+    background: #3f3f44;
+    color: #fff;
+    margin-bottom: 38px;
+  }
+  .progressbar-wrapper {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+  }
+  text.CircularProgressbar-text {
+    font-size: 13px !important;
+    font-family: 'Poppins', sans-serif;
+    color: #999 !important;
+}
+
+
+@media (max-width: 425px) {
+    .skills-container{
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+    .skill-item {
+    margin: 0px; 
+}
+.Getintouch-row {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    }
+}

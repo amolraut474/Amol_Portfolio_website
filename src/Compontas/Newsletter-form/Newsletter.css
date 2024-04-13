@@ -1,0 +1,188 @@
+.container-sction {
+    background-color: #35353a;
+    padding: 80px 0 0px 70px;
+    border: 1px solid #ffffff0d;
+    position: relative;
+}
+
+.txt-primary {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.txt-secondary {
+    font-weight: 700;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.form-control {
+
+    border-radius: 3px;
+    padding: 0.3rem;
+    width: 70%;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 13px !important;
+
+}
+
+.btn {
+    padding: 0.3rem 0.5rem;
+    border: none;
+    margin: 0 0.5rem;
+    border-radius: 3px;
+    background: #F7B90F;
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #F7B90F;
+    color: #000;
+}
+
+input#email {
+    background: #3f3f44;
+    border: none !important;
+    border-left: 6px solid #292929;
+    color: #fff;
+}
+.copy.text-center {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+.footer-last {
+    border-top: 1px solid #47474c;
+    padding: 40px 0px;
+}
+.container-sction::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    right: 0;
+    height: 70%;
+    background: url('https://trion.kwst.net/dark/images/pattern2.png') repeat;
+    opacity: 0.08;
+}
+.footer-bottom-se{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-bottom-se button.btn {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 700;
+    width: 100% !important;
+    padding: 15px 40px;
+    border: 1px solid #47474c;
+    background-color: #39393e;
+    color: #fff;
+}
+.footer-bottom-se span {
+    margin-right: 20px;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .newsletter {
+        width: 60%;
+
+    }
+
+    .icon {
+        left: 45%;
+    }
+
+    .title {
+        font-size: 55px;
+    }
+
+    .txt {
+        font-size: 20px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .btn {
+        padding: 0.3rem 0.9rem;
+    }
+   
+}
+
+@media (min-width: 769px) {
+
+    .newsletter {
+    
+        width: 50%;
+
+    }
+
+    .icon {
+        padding-top: 1rem;
+        width: 80px;
+        height: 80px;
+        left: 45%;
+        top: -35px;
+    }
+
+    .title {
+        font-size: 60px;
+        margin-top: 12px;
+    }
+
+   
+
+    .form-control {
+        padding: 1rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 1rem;
+        width: 30%;
+        margin: 0 auto;
+        color: #000;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+
+@media (max-width: 768px) {
+.container-sction {
+    padding: 20px;
+}
+.footer-bottom-se {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-last {
+    padding: 40px 0px 20px 0px;
+}
+.newsletter input#email {
+    padding: 15px;
+}
+}

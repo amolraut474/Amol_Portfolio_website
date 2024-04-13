@@ -1,0 +1,57 @@
+.Hero-section{
+    background-image: url(https://trion.kwst.net/dark/images/bg/5.jpg);
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 70px;
+    position: relative;
+    z-index: 0;
+}
+.Hero-section .overlay {
+    opacity: 0.4;
+    z-index: -1;
+}
+.Hero-section .form-heading {
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+}
+.Hero-section .form-heading::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 50px;
+    height: 4px;
+    background: #f7b90f;
+    
+}
+.Hero-section .txt-secondary{
+    color: #fff;
+}
+
+@media (max-width: 425px) {
+    .card-row{
+        flex-direction: column;
+       
+    }
+    .Custom_Card{
+        padding: 46px 0px;
+    }
+    .Hero-section{
+        padding: 0px 20px;
+    }
+    .card-icon-c{
+        margin-left: 20px;
+    }
+    .card-title-box{
+        margin-right: 20px;
+    }
+
+
+}
