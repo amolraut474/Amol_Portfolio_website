@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amol_Portfolio_website/static/css/main.d60bc056.css",
-    "main.js": "/Amol_Portfolio_website/static/js/main.4a5b0536.js",
+    "main.js": "/Amol_Portfolio_website/static/js/main.f76934d4.js",
     "static/js/453.ace21015.chunk.js": "/Amol_Portfolio_website/static/js/453.ace21015.chunk.js",
     "static/media/About.png": "/Amol_Portfolio_website/static/media/About.49e08d2f1e4f691beeb1.png",
     "static/media/Project-4.png": "/Amol_Portfolio_website/static/media/Project-4.738fb4e48b16cecf66e9.png",
@@ -49,11 +49,11 @@
     "static/media/slick.woff": "/Amol_Portfolio_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Amol_Portfolio_website/index.html",
     "main.d60bc056.css.map": "/Amol_Portfolio_website/static/css/main.d60bc056.css.map",
-    "main.4a5b0536.js.map": "/Amol_Portfolio_website/static/js/main.4a5b0536.js.map",
+    "main.f76934d4.js.map": "/Amol_Portfolio_website/static/js/main.f76934d4.js.map",
     "453.ace21015.chunk.js.map": "/Amol_Portfolio_website/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d60bc056.css",
-    "static/js/main.4a5b0536.js"
+    "static/js/main.f76934d4.js"
   ]
 }
