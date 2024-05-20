@@ -204,7 +204,7 @@ const projects = [
   },
   {
     id: 23,
-    title: 'Project :Ribit Boats site',
+    title: 'Project : Ribit Boats site',
     Environment: 'Environment : Shopify',
     Role: 'Role : Web Developer.',
     description: 'Description : The Ribit Boats website is a one-of-a-kind platform, meticulously crafted to deliver a seamless online shopping experience and information about the product. For this website, please refer to',
@@ -213,13 +213,114 @@ const projects = [
   },
   {
     id: 24,
-    title: 'Project : Project : Bonnie and Pop celebration and gifting site',
+    title: 'Project : Bonnie and Pop celebration and gifting site',
     Environment: 'Environment :  Shopify ',
     Role: 'Role : Web Developer.',
     description: 'Description : It is the unique gifting site in food, including, shipping configuration using FedEx. For this website, please refer to',
     imageUrl: require('../Images/Project-12.png'),
     url: 'https://www.bonnieandpop.com/'
   },
+  {
+    id: 25,
+    title: 'Project : Marketing Company site',
+    Environment: 'Environment : WordPress',
+    Role: 'Role : Web Developer.',
+    description: 'Description : This is the website of a unique marketing company, offering information and a range of marketing services. For further details, please refer to our website.',
+    imageUrl: require('../Images/Project-26.png'),
+    url: 'https://leadvips.com/'
+  },
+  {
+    id: 26,
+    title: 'Project : Mealkraft site',
+    Environment: 'Environment : WordPress',
+    Role: 'Role : Web Developer.',
+    description: 'Description : It is the unique Mealkraft site in food, including, shipping configuration using FedEx. For this website, please refer to',
+    imageUrl: require('../Images/Project-27.png'),
+    url: 'https://mealkraft.ca/'
+  },
+  {
+    id: 28,
+    title: 'Project : Car Book  site',
+    Environment: 'Environment :  WordPress',
+    Role: 'Role : Web Developer.',
+    description: 'Description : This is the unique Car Book site, offering comprehensive car booking services. For further information, please refer to our website.',
+    imageUrl: require('../Images/Project-28.png'),
+    url: 'https://curacao.starrentacar-lease.com/'
+  },
+  {
+    id: 29,
+    title: 'Project : Caring Heartes Car site',
+    Environment: 'Environment :  WordPress ',
+    Role: 'Role : Web Developer.',
+    description: 'Description : This is the website for Caring Heartes Car, offering a variety of services tailored to your needs. For further information, please refer to this website.',
+    imageUrl: require('../Images/Project-29.png'),
+    url: 'https://rinagolan.co/  '
+  },
+  {
+    id: 30,
+    title: 'Project : medicine site',
+    Environment: 'Environment : WordPress ',
+    Role: 'Role : Web Developer.',
+    description: 'Description : This is the unique medicine website providing information and services related to medicine. For further details, please refer to our website.',
+    imageUrl: require('../Images/Project-30.png'),
+    url: 'https://www.bonnieandpop.com/'
+  },
+  {
+    id: 31,
+    title: 'Project : Balloons gifting site',
+    Environment: 'Environment : WordPress',
+    Role: 'Role : Web Developer.',
+    description: 'Description : This is the unique balloons website, providing information and services related to balloons. For further details, please refer to our website.',
+    imageUrl: require('../Images/Project-31.png'),
+    url: 'https://gidiballoons.com/home_new/'
+  },
+  {
+    id: 32,
+    title: 'Project : Digital Solutions site',
+    Environment: 'Environment : WordPress',
+    Role: 'Role : Web Developer.',
+    description: 'Description : This is the unique Digital Solutions site, offering information and services related to digital solutions. For further details, please refer to our website.',
+    imageUrl: require('../Images/Project-32.png'),
+    url: 'https://v2.voltihost.com/'
+  },
+  {
+    id: 33,
+    title: 'Project : Drone technology',
+    Environment: 'Environment :  Shopify ',
+    Role: 'Role : Web Developer.',
+    description: 'Description : Explore our unique drone technology solutions for everyday business operations, featuring advanced shipping configurations powered by FedEx services. For details, visit our website.',
+    imageUrl: require('../Images/Project-33.png'),
+    url: 'https://candrone.com/'
+  },
+  {
+    id: 34,
+    title: 'Project : the alchempist',
+    Environment: 'Environment :  Shopify ',
+    Role: 'Role : Web Developer.',
+    description: 'We are the unique alchemist in CBD products, offering a range of solutions, including shipping configurations using FedEx. For more information, please refer to our website.',
+    imageUrl: require('../Images/Project-34.png'),
+    url: ' https://www.thealchempist.com/'
+  },
+  {
+    id: 35,
+    title: 'Project : Naturopress site',
+    Environment: 'Environment :  Shopify ',
+    Role: 'Role : Web Developer.',
+    description: 'Description : It is the unique Water Filters site in , including, shipping configuration using FedEx. For this website, please refer to',
+    imageUrl: require('../Images/Project-35.png'),
+    url: 'https://naturopress.com.au/'
+  },
+  {
+    id: 36,
+    title: 'Project : griffy sorganics',
+    Environment: 'Environment :  Shopify ',
+    Role: 'Role : Web Developer.',
+    description: 'Description : It is the unique gifting site in, including, shipping configuration using FedEx. For this website, please refer to',
+    imageUrl: require('../Images/Project-36.png'),
+    url: ' https://griffysorganics.com/'
+  },
+
+
   // Add more projects as needed
 ];
 
